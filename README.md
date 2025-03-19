@@ -13,7 +13,7 @@ This project provides a command-line interface for interacting with a transporta
 ## Installation
 1. Clone this repository:
    ```bash
-   git clone https://github.com/yourusername/yourrepository.git
+   git clone https://github.com/KietAPCS/HCM-Bus-Map-Processing.git
    cd yourrepository
    ```
 2. Install dependencies (if any are required):
