@@ -1,4 +1,4 @@
-# README: AI-Powered Graph Query System - HCM Bus Map Processing
+# README: AI-Powered Graph Query System
 
 ## Overview
 This project provides a command-line interface for exploring a transportation graph, allowing users to query bus stops, routes, and shortest paths. The graph is built using data from JSON files, and Dijkstra's algorithm is used for shortest path calculations. Additionally, it integrates an AI-powered system that leverages a hosted Large Language Model (LLM) from the Gorilla server to process natural language queries and convert them into function calls.
@@ -67,6 +67,7 @@ Follow the on-screen menu to interact with the graph API.
 ├── var.py           # Variables and constants
 ├── stop.py          # Stop-related functions
 ├── path.py          # Path-related functions
+├── llm.py           # LLM query processing
 ├── vars.json        # Stop and path variables
 ├── stops.json       # Stop data
 ├── paths.json       # Path data
